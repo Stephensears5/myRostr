@@ -17,6 +17,7 @@ function App() {
       <NavBar />
       <Routes>
         <Route path="/" element={<Navigate replace to="/home" />} />
+        <Route path="/myRostr" element={<Navigate replace to="/home" />} />
         <Route path="/home" element={<HomePage />} />
         <Route path="/events" element={<Events/>} />
         {/* <Route path="/create" element={<Create/>} /> */}
