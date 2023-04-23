@@ -1,19 +1,20 @@
 {
   "files": {
-    "main.css": "/myRostr/static/css/main.06377b0d.css",
-    "main.js": "/myRostr/static/js/main.ea2c3b33.js",
+    "main.css": "/myRostr/static/css/main.6024798f.css",
+    "main.js": "/myRostr/static/js/main.4db70ba0.js",
     "static/js/787.1c3b2283.chunk.js": "/myRostr/static/js/787.1c3b2283.chunk.js",
     "static/media/desktop-1920x1080.jpg": "/myRostr/static/media/desktop-1920x1080.5292b6babd7813e5bf0a.jpg",
+    "static/media/990003.jpg": "/myRostr/static/media/990003.6c6db2d84a0d1227d32e.jpg",
     "static/media/WallpaperDog-5550604.jpg": "/myRostr/static/media/WallpaperDog-5550604.20ed0a085cecfce5f5d3.jpg",
     "static/media/grass.jpg": "/myRostr/static/media/grass.86cca043fd9b37eb1f09.jpg",
     "static/media/greyscale-gym.avif": "/myRostr/static/media/greyscale-gym.5e53420494adb46c6014.avif",
     "index.html": "/myRostr/index.html",
-    "main.06377b0d.css.map": "/myRostr/static/css/main.06377b0d.css.map",
-    "main.ea2c3b33.js.map": "/myRostr/static/js/main.ea2c3b33.js.map",
+    "main.6024798f.css.map": "/myRostr/static/css/main.6024798f.css.map",
+    "main.4db70ba0.js.map": "/myRostr/static/js/main.4db70ba0.js.map",
     "787.1c3b2283.chunk.js.map": "/myRostr/static/js/787.1c3b2283.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.06377b0d.css",
-    "static/js/main.ea2c3b33.js"
+    "static/css/main.6024798f.css",
+    "static/js/main.4db70ba0.js"
   ]
 }
