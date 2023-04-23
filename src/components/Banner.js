@@ -4,8 +4,8 @@ import '../css/Banner.css';
 const Banner = () => {
     return(
         <section className="header">
-            <h1>Company Name</h1>
-            <p>Company Mission Statement Goes Here</p>
+            <h1>RostR</h1>
+            <p>Bringing Atheletes Together</p>
         </section>
     )
 }

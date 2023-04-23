@@ -1,0 +1,23 @@
+.page {
+    width: 100%;
+    /* margin: 0 auto; */
+    position: relative;
+    background-image: url("../images/990003.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: center;
+    padding-top: 0px;
+    height: 100vh;
+
+}
+
+.h1 {
+    text-align: center;
+}
+
+@media (max-width: 599px) {
+.h1 {
+    padding-top: 20px;
+}
+}

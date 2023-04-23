@@ -7,6 +7,7 @@
   margin-right: auto;
   width: 46em;
   padding: 40px 0;
+  background-repeat: no-repeat; 
 }
 
 .card {
@@ -21,7 +22,10 @@
   backdrop-filter: blur(8.5px);
   -webkit-backdrop-filter: blur(8.5px);
   border: 1px solid rgba(255, 255, 255, 0.18);
+  list-style-type: none;
 }
+
+
 
 .card-hover :hover {
   background: rgba(79, 209, 86, 0.15);
@@ -38,6 +42,7 @@
   text-decoration: none;
   pointer-events: none;
   font-size: 2em;
+  text-transform: uppercase;
 }
 
 .card-icon {
@@ -67,4 +72,5 @@
 
 a {
   text-decoration: none;
+  outline: none;
 }

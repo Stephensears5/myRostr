@@ -1,0 +1,13 @@
+.events-list {
+    list-style: none;
+    padding: 0;
+    background-color: none;
+    color: none;
+}
+
+
+
+.events-list__fallback {
+    text-align: center;
+}
+  

@@ -1,0 +1,51 @@
+.card-category {
+    position: relative;
+    width: 250px;
+    height: 250px;
+    margin: 0 auto;
+    background: #000;
+    border-radius: 15px;
+    background: rgba(255, 255, 255, 0.15);
+    box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37);
+    backdrop-filter: blur(8.5px);
+    -webkit-backdrop-filter: blur(8.5px);
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    list-style-type: none;
+    justify-content: center;
+  }
+  
+  .container-category :hover {
+    background: rgba(79, 209, 86, 0.15); 
+     background-repeat: no-repeat;
+    background-size: cover;
+    cursor: pointer;
+  }
+
+  .container-category {
+    max-width: 100vw;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25px, 350px));
+    grid-gap: 35px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 46em;
+    padding: 40px 0;
+    background-repeat: no-repeat; 
+  }
+
+  .title-category {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+    padding-top: 3em;
+    text-align: center;
+    outline: none;
+
+  }
+
+  .text-link {
+    text-decoration: none;
+    outline: none;
+    color: inherit;
+  }
+

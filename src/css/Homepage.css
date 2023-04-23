@@ -11,6 +11,7 @@
   transition: 500ms;
   display: grid;
   grid-auto-rows: 100vh;
+  overflow: hidden;
 }
 
 .grid-container:has(.image-container-create:hover) {
@@ -120,6 +121,7 @@ body {
     transition: 500ms;
     display: grid;
     grid-auto-rows: 33%;
+    overflow: hidden;
   }
 
   .image-container-create {

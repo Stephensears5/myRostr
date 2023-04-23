@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Cards from "../components/Cards";
 import '../css/Events.css'
 
@@ -21,7 +22,7 @@ const CardParams = [
 const Events = () => {
 return(
     <div className="background">
-        <Cards items={CardParams}/>
+      <Cards items={CardParams}/>
     </div>
 )
 };

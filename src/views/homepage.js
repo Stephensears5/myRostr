@@ -15,7 +15,7 @@ const HomePage = () => {
           </div>
         </div>
       </Link>
-      <Link className="image-container-find" to="/events">
+      <Link className="image-container-find" to="/find">
         <div className="center">
           <div className="text-tile">Find</div>
           <div className="dropdown-content">

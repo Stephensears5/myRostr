@@ -9,6 +9,9 @@ import {
 } from "react-router-dom";
 import Events from "./views/Events";
 import Banner from "./components/Banner";
+import Create from "./views/Create";
+import MyEventsPage from './views/MyEventsPage';
+import Find from './views/Find';
 
 function App() {
   return (
@@ -20,8 +23,9 @@ function App() {
         <Route path="/myRostr" element={<Navigate replace to="/home" />} />
         <Route path="/home" element={<HomePage />} />
         <Route path="/events" element={<Events/>} />
-        {/* <Route path="/create" element={<Create/>} /> */}
-        {/* <Route path="/list" element={<List/>} /> */}
+        <Route path="/create" element={<Create/>} />
+        <Route path="/find" element={<Find/>} />
+        <Route path="/myeventspage" element={<MyEventsPage/>}/>
 
       </Routes>
     </Router>
