@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/myRostr/static/css/main.6024798f.css",
-    "main.js": "/myRostr/static/js/main.4db70ba0.js",
+    "main.css": "/myRostr/static/css/main.b4791687.css",
+    "main.js": "/myRostr/static/js/main.f5318cb7.js",
     "static/js/787.1c3b2283.chunk.js": "/myRostr/static/js/787.1c3b2283.chunk.js",
     "static/media/desktop-1920x1080.jpg": "/myRostr/static/media/desktop-1920x1080.5292b6babd7813e5bf0a.jpg",
     "static/media/990003.jpg": "/myRostr/static/media/990003.6c6db2d84a0d1227d32e.jpg",
@@ -9,12 +9,12 @@
     "static/media/grass.jpg": "/myRostr/static/media/grass.86cca043fd9b37eb1f09.jpg",
     "static/media/greyscale-gym.avif": "/myRostr/static/media/greyscale-gym.5e53420494adb46c6014.avif",
     "index.html": "/myRostr/index.html",
-    "main.6024798f.css.map": "/myRostr/static/css/main.6024798f.css.map",
-    "main.4db70ba0.js.map": "/myRostr/static/js/main.4db70ba0.js.map",
+    "main.b4791687.css.map": "/myRostr/static/css/main.b4791687.css.map",
+    "main.f5318cb7.js.map": "/myRostr/static/js/main.f5318cb7.js.map",
     "787.1c3b2283.chunk.js.map": "/myRostr/static/js/787.1c3b2283.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.6024798f.css",
-    "static/js/main.4db70ba0.js"
+    "static/css/main.b4791687.css",
+    "static/js/main.f5318cb7.js"
   ]
 }
