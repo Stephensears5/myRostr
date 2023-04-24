@@ -50,6 +50,10 @@
   color: red;
 }
 
+.notsignup-check:hover {
+  color: #f07070;
+}
+
 .event-signupCheck {
   font-size: 2rem;
   flex: 1;
@@ -57,6 +61,50 @@
   color: white;
   text-align: right;
 }
+
+.signup-check:hover {
+  color: #97FB57;
+}
+
+.event-signupCheck::after {
+  content: attr(title);
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 5px;
+  background-color: #333;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 3px;
+  white-space: nowrap;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.3s ease-in-out;
+}
+
+.notsignup-check::after {
+  content: attr(title);
+  position: absolute;
+  bottom: 100%;
+  left: 50%;
+  transform: translateX(-50%);
+  padding: 5px;
+  background-color: #333;
+  color: #fff;
+  font-size: 12px;
+  border-radius: 3px;
+  white-space: nowrap;
+  visibility: hidden;
+  opacity: 0;
+  transition: visibility 0s, opacity 0.3s ease-in-out;
+}
+
+/* .event-signupCheck:hover::after {
+  visibility: visible;
+  opacity: 1;
+} */
+
 .signup-check {
   color: green;
 }

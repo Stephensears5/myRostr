@@ -37,13 +37,13 @@ const EventDetail = (props) => {
   const backPageHandler = () => {
     navigate(-1)
   }
-
+  console.log(events);
   const content = events.map((x) => {
     return (
-      <div>
+      <div className="page">
         <ioIcons.IoMdArrowRoundBack className="back-arrow" onClick={backPageHandler}/>
-        <div className="container" key={x.id}>
-          <div id="event">
+        <div className="details-container" key={x.id}>
+          <div id="details-event">
             <h1>{x.title}</h1>
             <h3>created by: {x.subProfileName}</h3>
             <label>Number Attending: {numAttendees}</label>

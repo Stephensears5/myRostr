@@ -5,9 +5,7 @@ import EventItem from "./EventItem";
 
 const EventsList = (props) => {
     const content = props.items.map((x) => {
-        console.log(props.items);
-        return (
-          
+        return (   
             <Link to={x.id}>
             <EventItem
               creatorToken={x.subId}
@@ -27,7 +25,6 @@ const EventsList = (props) => {
   return (
     <>
      <ul className="events-list">{content}</ul>
-     <p style={{color: "white"}}>click <Link to={'/createeventpage'}>here</Link> to create another event</p>
     </>
       
 

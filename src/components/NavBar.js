@@ -30,13 +30,13 @@ const NavBar = () => {
             <Link to="/find">Find</Link>
             {/* <a href="">My Events</a> */}
           </li>
-          <li id="nav-li">
+          {/* <li id="nav-li">
             <a href="">Profile</a>
-          </li>
+          </li> */}
           {/* </div> */}
           {/* <div className='topnav-right'> */}
           <li id="nav-li">
-            <a href="">Login</a>
+          <Link to="/login">Login</Link>
           </li>
           {/* </div>            */}
         </ul>

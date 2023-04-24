@@ -4,7 +4,7 @@ const useHttp = () => {
     const [error, setError] = useState(null);
     const [isLoading, setIsLoading] = useState(false);
 
-    const sendRequest = useCallback(async (reqConfig, useData) => {
+    const sendRequest = useCallback(async (reqConfig, applyData) => {
         setError(null);
         setIsLoading(true);
         try {
@@ -21,7 +21,7 @@ const useHttp = () => {
             };
 
             let data = await res.json();
-            useData(data);
+            applyData(data);
         } catch (err) {
             setError(err.message || 'Oops... Something went wrong.');
         };
